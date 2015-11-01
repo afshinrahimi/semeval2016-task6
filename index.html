@@ -29,8 +29,23 @@
 
 <ul>
 <li>A topic, a piece of text, mentions and hashtags are given. The question is whether the tweet is in favour, against or neutral about the topic.</li>
-<li>The distribution of labels is shown <a href="https://drive.google.com/open?id=0B9ZfPKPvp-JiLUhqTE5jTXR2X3M">here</a>.</li>
+<li>The distribution of labels is shown <a href="https://drive.google.com/open?id=0B9ZfPKPvp-JiLUhqTE5jTXR2X3M">here</a>. The AGAINST tweets are twice the number of FAVOR or NONE (neutral) tweets.</li>
+<li>The distribution of topics is shown <a href="https://drive.google.com/open?id=0B9ZfPKPvp-JiUURZbjhpNTRaNkU">here</a>. The distribution of tweets among topics seems to be almost uniform.</li>
+<li>The number of training and development samples are 2815 and 100 respectively.</li>
+</ul>
+
+<h3>
+<a id="models" class="anchor" href="#models" aria-hidden="true"><span class="octicon octicon-link"></span></a>Models</h3>
+
+<ul>
 <li>Baseline 1: Train a text-based classifier over all training samples regardless of their topic and test it on development data.</li>
+</ul>
+
+<h3>
+<a id="evaluation" class="anchor" href="#evaluation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Evaluation</h3>
+
+<ul>
+<li>Task is evaluated with the average of f-scores for FAVOR and AGAINST labels.</li>
 </ul>
 
       <footer class="site-footer">
