@@ -47,9 +47,4 @@ def download_user_tweets(user_ids, output_file):
             tfile.flush()  
 
 if __name__ == '__main__':
-    with open('./friend_ids.pkl', 'rb') as inf:
-        friend_ids = pickle.load(inf)
-    download_user_tweets(friend_ids, './friends-extra-tweets.txt')
-    with open('./user_ids.pkl', 'rb') as inf:
-        id_users = pickle.load(inf)
-    download_user_tweets(id_users, './user-extra-tweets.txt')
+    pass
