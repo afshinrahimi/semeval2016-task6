@@ -19,10 +19,8 @@
     </section>
 
     <section class="main-content">
-      <h3>
-<a id="stance-detection-in-tweets-yes-or-no" class="anchor" href="#stance-detection-in-tweets-yes-or-no" aria-hidden="true"><span class="octicon octicon-link"></span></a>Stance Detection in Tweets: Yes or No?</h3>
-
-<p>This is the project page for <a href="http://alt.qcri.org/semeval2016/task6/">SemEval 2016 task 6</a>: Detecting Stance in Tweets.</p>
+      <p>``### Stance Detection in Tweets: Yes or No?
+This is the project page for <a href="http://alt.qcri.org/semeval2016/task6/">SemEval 2016 task 6</a>: Detecting Stance in Tweets.</p>
 
 <h3>
 <a id="data-and-task" class="anchor" href="#data-and-task" aria-hidden="true"><span class="octicon octicon-link"></span></a>DATA and Task:</h3>
@@ -43,18 +41,16 @@
 <a id="models" class="anchor" href="#models" aria-hidden="true"><span class="octicon octicon-link"></span></a>Models</h3>
 
 <ul>
-<li>
-<p>Baseline 1: Train a text-based classifier over all training samples regardless of their topic and test it on development data. The cost function is hinge loss (SVM) and Elastic Net (50% l1 and 50% l2) regularisation. 10-fold cross validation has been used for tuning the regularisation coefficient.</p>
-
-<pre><code>      |precision |   recall | f1-score |  support|
-</code></pre>
-
-<p>AGAINST   |   0.68   |  0.85    | 0.76     |  53     |
-   AVOR   |   0.70   |  0.64    | 0.67     |  22     |
-   NONE   |   0.71   |  0.40    | 0.51     |  25     |
-avg / total   |   0.69   |  0.69    | 0.68     | 100     |</p>
-</li>
+<li>Baseline 1: Train a text-based classifier over all training samples regardless of their topic and test it on development data. The cost function is hinge loss (SVM) and Elastic Net (50% l1 and 50% l2) regularisation. 10-fold cross validation has been used for tuning the regularisation coefficient.</li>
 </ul>
+
+<p><code>
+              |precision |   recall | f1-score |  support|
+    AGAINST   |   0.68   |  0.85    | 0.76     |  53     |
+       AVOR   |   0.70   |  0.64    | 0.67     |  22     |
+       NONE   |   0.71   |  0.40    | 0.51     |  25     |
+avg / total   |   0.69   |  0.69    | 0.68     | 100     |
+</code></p>
 
 <h3>
 <a id="evaluation" class="anchor" href="#evaluation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Evaluation</h3>
