@@ -41,16 +41,13 @@
 <li>
 <p>Baseline 1: Train a text-based classifier over all training samples regardless of their topic and test it on development data. The cost function is hinge loss (SVM) and Elastic Net (50% l1 and 50% l2) regularisation. 10-fold cross validation has been used for tuning the regularisation coefficient.</p>
 
-<pre><code>     precision    recall  f1-score   support
-</code></pre>
-
-<p>AGAINST       0.68      0.85      0.76        53
+<p>Labels        precision    recall  f1-score   support<br>
+AGAINST       0.68      0.85      0.76        53
   FAVOR       0.70      0.64      0.67        22
-   NONE       0.71      0.40      0.51        25</p>
+   NONE       0.71      0.40      0.51        25
+avg/total     0.69      0.69      0.68       100</p>
 </li>
 </ul>
-
-<p>avg / total       0.69      0.69      0.68       100</p>
 
 <h3>
 <a id="evaluation" class="anchor" href="#evaluation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Evaluation</h3>
