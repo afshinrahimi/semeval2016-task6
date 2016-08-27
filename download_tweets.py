@@ -24,13 +24,13 @@ logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S
 def download_user_tweets(user_ids, output_file):
     # Go to http://dev.twitter.com and create an app.
     # The consumer key and secret will be generated for you after
-    consumer_key = 'COVV87zJN2wHRfAz7zB5p2QPQ'
-    consumer_secret = 'HhNmLOsIui0rG04XltDSHdmEBNf9IAtkZeW17U7pFYAuKf8qiv'
+    consumer_key = 'asdf'
+    consumer_secret = 'asdf'
     
     # After the step above, you will be redirected to your app's page.
     # Create an access token under the the "Your access token" section
-    access_token = '2205031009-a7FMWRzzTi5wooSMFkYUqyiq1aGREBSMCyBX2vw'
-    access_token_secret = 'TfPQ5V8X9BOwjWQU7UBTJHTR8kYJzyhM1em8I4YGIcZxh'    
+    access_token = '2205031009-aasdfasdf'
+    access_token_secret = 'asdf'    
     
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
@@ -52,16 +52,16 @@ def download_user_tweets(user_ids, output_file):
 def download_tweets(tweets_ids, filename):
     # Go to http://dev.twitter.com and create an app.
     # The consumer key and secret will be generated for you after
-    consumer_key = 'COVV87zJN2wHRfAz7zB5p2QPQ'
-    consumer_secret = 'HhNmLOsIui0rG04XltDSHdmEBNf9IAtkZeW17U7pFYAuKf8qiv'
-    consumer_key = 'XtggSrSiLNvG3IlY95mRDCktI'
-    consumer_secret = 'd5EfMArRUfdOg7nnAKpfG49N5Va0QMfM2Rgy8xec59lBBeod3K'    
+    consumer_key = 'asdf'
+    consumer_secret = 'asdf'
+    consumer_key = 'asdf'
+    consumer_secret = 'asdf'    
     # After the step above, you will be redirected to your app's page.
     # Create an access token under the the "Your access token" section
-    access_token = '2205031009-a7FMWRzzTi5wooSMFkYUqyiq1aGREBSMCyBX2vw'
-    access_token_secret = 'TfPQ5V8X9BOwjWQU7UBTJHTR8kYJzyhM1em8I4YGIcZxh'    
-    access_token = '2205031009-8kQqA0cmi24mVoOLpIcxc8YtkG6GUYXtOZJfMN9'
-    access_token_secret = 'bk8WuRZF7GwzjhFkYAxxMcHc1dlyA7cf27oI1EEKCMHWS'    
+    access_token = '2205031009-asdf'
+    access_token_secret = 'asdf'    
+    access_token = '2205031009-asdf'
+    access_token_secret = 'asdf'    
     
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
@@ -128,16 +128,16 @@ def dowanload_timeline_of_ids(userids=None, inputfilename=None, outputfilename='
     print 'number of celebrities: ', len(userids)
     userids = [l for l in userids if l not in already_downloaded]
     print 'celebrity timelines to download: ' , len(userids)
-    consumer_key = 'COVV87zJN2wHRfAz7zB5p2QPQ'
-    consumer_secret = 'HhNmLOsIui0rG04XltDSHdmEBNf9IAtkZeW17U7pFYAuKf8qiv'
-    consumer_key = 'XtggSrSiLNvG3IlY95mRDCktI'
-    consumer_secret = 'd5EfMArRUfdOg7nnAKpfG49N5Va0QMfM2Rgy8xec59lBBeod3K'    
+    consumer_key = 'asdf'
+    consumer_secret = 'asdf'
+    consumer_key = 'asdf'
+    consumer_secret = 'asdf'    
     # After the step above, you will be redirected to your app's page.
     # Create an access token under the the "Your access token" section
-    access_token = '2205031009-a7FMWRzzTi5wooSMFkYUqyiq1aGREBSMCyBX2vw'
-    access_token_secret = 'TfPQ5V8X9BOwjWQU7UBTJHTR8kYJzyhM1em8I4YGIcZxh'    
-    access_token = '2205031009-8kQqA0cmi24mVoOLpIcxc8YtkG6GUYXtOZJfMN9'
-    access_token_secret = 'bk8WuRZF7GwzjhFkYAxxMcHc1dlyA7cf27oI1EEKCMHWS'    
+    access_token = '2205031009-asdf'
+    access_token_secret = 'asdf'    
+    access_token = '2205031009-asdf'
+    access_token_secret = 'asdf'    
     
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
@@ -160,13 +160,13 @@ def dowanload_timeline_of_ids(userids=None, inputfilename=None, outputfilename='
               
             
 def download_user_friends_info(list_of_users, inputfilename=None, outputfilename='533_followers.txt'):
-    consumer_key = 'COVV87zJN2wHRfAz7zB5p2QPQ'
-    consumer_secret = 'HhNmLOsIui0rG04XltDSHdmEBNf9IAtkZeW17U7pFYAuKf8qiv'
+    consumer_key = 'asdf'
+    consumer_secret = 'asdf'
     
     # After the step above, you will be redirected to your app's page.
     # Create an access token under the the "Your access token" section
-    access_token = '2205031009-a7FMWRzzTi5wooSMFkYUqyiq1aGREBSMCyBX2vw'
-    access_token_secret = 'TfPQ5V8X9BOwjWQU7UBTJHTR8kYJzyhM1em8I4YGIcZxh'    
+    access_token = '2205031009-asdf'
+    access_token_secret = 'asdf'    
     
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
